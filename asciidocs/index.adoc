@@ -1,12 +1,5 @@
 = My Project
-firstname lastname
-1.0.0, yyyy-mm-dd: Some notes
-ifndef::imagesdir[:imagesdir: images]
-//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
-:sourcedir: ../src/main/java
-:icons: font
-:sectnums:    // Nummerierung der Überschriften / section numbering
-:toc: left
+David Thaller
 
 //Need this blank line after ifdef, don't know why...
 ifdef::backend-html5[]
@@ -14,8 +7,188 @@ ifdef::backend-html5[]
 // print the toc here (not at the default position)
 //toc::[]
 
-== Header 1
+=== Terminal History Docker run
 
 
-=== Header 2
-
+    sudo apt update
+    sudo systemctl start docker
+    sudo snap install docker
+    sudo service docker start
+    sudo apt-get install docker-engine -y
+    cd itp
+    cd playground/
+    mkdir lecture-notes-david
+    cd lecture-notes-david/
+    git clone git@github.com:2122-3bhitm-itp/04-lecture-notes-git-ThallerDavid.git
+    git add .
+    git init
+    ls
+    cd 04-lecture-notes-git-ThallerDavid/
+    cd
+    cd itp
+    cd playground/
+    cd lecture-notes-david/
+    cd 04-lecture-notes-git-ThallerDavid/
+    git add .
+    git commit -m"initial commit"
+    git push
+    cd 04-lecture-notes-git-ThallerDavid/
+    ./run-inside-docker.sh 
+    docker run
+    docker run --help
+  377  sudo service docker start
+  37  326  sudo apt-get remove docker docker-engine docker.io containerd runc
+  327  sudo apt update
+  328  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+  329  url -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  330  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  331  sudo apt update
+  332  apt-cache policy docker-ce
+  333  sudo apt install docker-ce
+  334  sudo systemctl status docker
+  335  clear
+  336  sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+  337  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add
+  338  sudo apt update
+  339  docker --version
+  340  sudo systemctl start docker
+  341  sudo snap install docker
+  342  sudo service docker start
+  343  sudo apt-get install docker-engine -y
+  344  cd itp
+  345  cd playground/
+  346  mkdir lecture-notes-david
+  347  cd lecture-notes-david/
+  348  git clone git@github.com:2122-3bhitm-itp/04-lecture-notes-git-ThallerDavid.git
+  349  git add .
+  350  git init
+  351  ls
+  352  cd 04-lecture-notes-git-ThallerDavid/
+  353  l
+  354  ls
+  355  cd
+  356  cd itp
+  357  cd playground/
+  358  cd lecture-notes-david/
+  359  cd 04-lecture-notes-git-ThallerDavid/
+  360  git add .
+  361  git commit -m"initial commit"
+  362  git push
+  363  nano .env
+  364  l
+  365  cd ..
+  366  l
+  367  nano .env
+  368  cd 04-lecture-notes-git-ThallerDavid/
+  369  ./run-inside-docker.sh 
+  370  docker run
+  371  ./run-inside-docker.sh 
+    docker run --help
+    docker run -t -i --rm ubuntu bash
+    docker run
+    docker run --help
+    docker run
+    sudo service docker start
+    run-inside-docker.sh  
+    docker
+    docker version
+    docker run
+    docker rm
+    run
+    docker version 
+    docker run
+    docker run hello-world
+    sudo service docker start
+    sudo apt-get update -y && sudo apt-get install -y linux-image-extra-$(uname -r)
+    docker run
+    clear
+    docker run
+    clear
+    docker run hello-world
+    clear
+    sudo docker run
+    clear
+    sudo docker run hello-world
+    cd itp
+    cd playground
+    04-lecture-note
+    cd lecture-notes-david/
+    cd 04-lecture-notes-git-ThallerDavid/
+    ls
+8  run-inside-docker.sh  
+  380  docker version
+  386  docker run hello-world
+  387  sudo service docker start
+  388  sudo apt-get update -y && sudo apt-get install -y linux-image-extra-$(uname -r)
+  389  docker run
+  390  clear
+  391  docker run
+  392  clear  326  sudo apt-get remove docker docker-engine docker.io containerd runc
+  327  sudo apt update
+  328  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+  329  url -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  330  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  331  sudo apt update
+  332  apt-cache policy docker-ce
+  333  sudo apt install docker-ce
+  334  sudo systemctl status docker
+  335  clear
+  336  sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+  337  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add
+  338  sudo apt update
+  339  docker --version
+  340  sudo systemctl start docker
+  341  sudo snap install docker
+  342  sudo service docker start
+  343  sudo apt-get install docker-engine -y
+  344  cd itp
+  345  cd playground/
+  346  mkdir lecture-notes-david
+  347  cd lecture-notes-david/
+  348  git clone git@github.com:2122-3bhitm-itp/04-lecture-notes-git-ThallerDavid.git
+  349  git add .
+  350  git init
+  351  ls
+  352  cd 04-lecture-notes-git-ThallerDavid/
+  353  l
+  354  ls
+  355  cd
+  356  cd itp
+  357  cd playground/
+  358  cd lecture-notes-david/
+  359  cd 04-lecture-notes-git-ThallerDavid/
+  360  git add .
+  361  git commit -m"initial commit"
+  362  git push
+  363  nano .env
+  364  l
+  365  cd ..
+  366  l
+  367  nano .env
+  368  cd 04-lecture-notes-git-ThallerDavid/
+  369  ./run-inside-docker.sh 
+  370  docker run
+  371  ./run-inside-docker.sh 
+  372  docker run --help
+  373  docker run -t -i --rm ubuntu bash
+    docker run
+    docker run --help
+    docker run
+    sudo service docker start
+    run-inside-docker.sh  
+    docker
+    docker version
+    docker run
+    docker rm
+    run
+    docker version 
+    docker run
+    sudo apt-get update -y && sudo apt-get install -y linux-image-extra-$(uname -r)
+    sudo docker run hello-world
+    cd itp
+    cd playground
+    04-lecture-note
+    cd lecture-notes-david/
+    cd 04-lecture-notes-git-ThallerDavid/
+    ls
+    docker run hello-world
